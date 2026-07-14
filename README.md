@@ -206,7 +206,7 @@ No manual deployment is required.
 Add screenshots here:
 
 * 🖥️ Home Page
-  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/97740fdc-505f-4c40-a515-a5fca2d68417" />
+  <img width="2324" height="1136" alt="image" src="https://github.com/user-attachments/assets/c30f8b2d-77fd-45f4-aa80-512646054e64" />
 
 * 🔗 URL Generated
   <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/74985e9a-29c1-4e7f-b787-d74090757d2f" />
@@ -221,6 +221,7 @@ Add screenshots here:
   <img width="1470" height="956" alt="Screenshot 2026-07-14 at 12 30 12" src="https://github.com/user-attachments/assets/9593fa28-758b-4d6a-9ca2-661e873218d3" />
 
 * 🌐 Live Application
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/49c8f35a-142c-4286-bb8f-d93ddae3fc01" />
 
 ⸻
 
