@@ -29,7 +29,7 @@ def shorten():
     short_url = request.host_url + short_code
 
     return f"""
-    <h2>✅ URL Shortened Successfully!</h2>
+    <h2>✅ URL Shortened Successfully - Version 2</h2>
 
     <p><b>Original URL:</b></p>
     <p>{long_url}</p>
