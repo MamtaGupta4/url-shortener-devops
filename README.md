@@ -206,8 +206,8 @@ No manual deployment is required.
 Add screenshots here:
 
 * 🖥️ Home Page
-  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/38ec532e-a46d-424f-98b8-a2be5749cc77" />
-  
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/97740fdc-505f-4c40-a515-a5fca2d68417" />
+
 * 🔗 URL Generated
   <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/74985e9a-29c1-4e7f-b787-d74090757d2f" />
 
