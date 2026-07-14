@@ -209,14 +209,14 @@ Add screenshots here:
   <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/38ec532e-a46d-424f-98b8-a2be5749cc77" />
   
 * 🔗 URL Generated
-  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/0236d6da-32f1-4ff4-801a-f76e008c180d" />
-  
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/74985e9a-29c1-4e7f-b787-d74090757d2f" />
+
 * 🐳 Docker Hub Repository
-  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/ee6ffa83-53be-4d6c-b039-35fd5effc55a" />
+ <img width="1470" height="956" alt="Screenshot 2026-07-14 at 12 09 07" src="https://github.com/user-attachments/assets/ac04980b-a31a-49a1-a69b-2e2db0fdb262" />
   
 * ⚡ GitHub Actions Success
-  ![Uploading image.png…]()
-  
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/1dfbd1da-0d86-4625-8ad5-0a6b1abdad35" />
+
 * ☁️ AWS EC2 Running Container
 * 🌐 Live Application
 
