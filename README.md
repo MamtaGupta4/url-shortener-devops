@@ -1,0 +1,263 @@
+🔗 URL Shortener | Flask • Docker • GitHub Actions • AWS EC2
+
+A fully containerized URL Shortener application built with Flask and SQLite, featuring an automated CI/CD pipeline that deploys the latest version to AWS EC2 using GitHub Actions and Docker Hub.
+
+⸻
+
+📌 About The Project
+
+This project demonstrates how a simple web application can be deployed using modern DevOps practices.
+
+Users can generate a short URL from a long URL and access the original website using the generated link. Every change pushed to GitHub is automatically built, published to Docker Hub, and deployed to an AWS EC2 server without any manual steps.
+
+⸻
+
+✨ Features
+
+* 🔗 Generate short URLs
+* 🚀 Redirect to original URLs
+* 💾 Store URL mappings using SQLite
+* 🐳 Dockerized application
+* 📦 Docker Compose support
+* ⚡ Automated CI/CD with GitHub Actions
+* ☁️ Automatic deployment to AWS EC2
+* 🔄 Docker Hub integration
+
+⸻
+
+🛠️ Tech Stack
+
+Category	Technologies
+Backend	Flask, Python
+Database	SQLite
+Frontend	HTML, CSS
+Containerization	Docker, Docker Compose
+Version Control	Git, GitHub
+CI/CD	GitHub Actions
+Container Registry	Docker Hub
+Cloud	AWS EC2
+OS	Ubuntu Linux
+
+⸻
+
+📂 Project Structure
+
+url-shortener-devops
+│
+├── .github/workflows/
+│      └── docker.yml
+│
+├── static/
+├── templates/
+├── app.py
+├── database.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── urls.db
+└── README.md
+
+⸻
+
+⚙️ Application Workflow
+
+User
+ │
+ ▼
+Enter Long URL
+ │
+ ▼
+Flask Application
+ │
+ ▼
+Generate Short Code
+ │
+ ▼
+Store in SQLite
+ │
+ ▼
+Return Short URL
+ │
+ ▼
+Open Short URL
+ │
+ ▼
+Redirect to Original Website
+
+⸻
+
+🚀 CI/CD Workflow
+
+Developer
+    │
+git push
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+GitHub Actions
+    │
+    ▼
+Build Docker Image
+    │
+    ▼
+Push Image to Docker Hub
+    │
+    ▼
+SSH into AWS EC2
+    │
+    ▼
+Pull Latest Docker Image
+    │
+    ▼
+Restart Container
+    │
+    ▼
+Application Updated Automatically
+
+⸻
+
+🏗️ Architecture
+
+                Internet
+                    │
+                    ▼
+              AWS EC2 Instance
+                    │
+                    ▼
+            Docker Container
+                    │
+                    ▼
+         Flask URL Shortener App
+                    │
+                    ▼
+             SQLite Database
+
+⸻
+
+🚀 Run Locally
+
+Clone Repository
+
+git clone https://github.com/MamtaGupta4/url-shortener-devops.git
+cd url-shortener-devops
+
+Create Virtual Environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+Run Application
+
+python app.py
+
+Open:
+
+http://localhost:5000
+
+⸻
+
+🐳 Run Using Docker
+
+Build Image
+
+docker build -t url-shortener .
+
+Run Container
+
+docker run -d -p 5000:5000 --name url-shortener url-shortener
+
+⸻
+
+🐳 Run Using Docker Compose
+
+docker compose up --build
+
+Stop
+
+docker compose down
+
+⸻
+
+☁️ Deployment
+
+The application is deployed on an AWS EC2 instance using Docker.
+
+Each push to the main branch automatically:
+
+* Builds a Docker image
+* Pushes the image to Docker Hub
+* Connects to AWS EC2 using SSH
+* Pulls the latest Docker image
+* Recreates the Docker container
+* Deploys the latest application
+
+No manual deployment is required.
+
+⸻
+
+📸 Project Screenshots
+
+Add screenshots here:
+
+* 🖥️ Home Page
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/38ec532e-a46d-424f-98b8-a2be5749cc77" />
+  
+* 🔗 URL Generated
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/0236d6da-32f1-4ff4-801a-f76e008c180d" />
+  
+* 🐳 Docker Hub Repository
+  <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/ee6ffa83-53be-4d6c-b039-35fd5effc55a" />
+  
+* ⚡ GitHub Actions Success
+  ![Uploading image.png…]()
+  
+* ☁️ AWS EC2 Running Container
+* 🌐 Live Application
+
+⸻
+
+📚 What I Learned
+
+* Flask Web Development
+* Docker & Docker Compose
+* Git & GitHub
+* GitHub Actions
+* Docker Hub
+* AWS EC2
+* Continuous Integration (CI)
+* Continuous Deployment (CD)
+* Linux Commands
+* SSH-based Deployment
+* End-to-End DevOps Workflow
+
+⸻
+
+🔮 Future Enhancements
+
+* Custom Short URLs
+* QR Code Generator
+* URL Analytics
+* User Authentication
+* MySQL Integration
+* Kubernetes Deployment
+* Terraform Infrastructure
+* Prometheus & Grafana Monitoring
+
+⸻
+
+👩‍💻 Author
+
+Mamta Gupta
+
+* GitHub: https://github.com/MamtaGupta4
+* LinkedIn: https://www.linkedin.com/in/mamtagupta2
+
+⸻
+
+⭐ If you like this project, don’t forget to give it a Star!
