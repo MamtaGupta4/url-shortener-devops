@@ -218,6 +218,8 @@ Add screenshots here:
   <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/1dfbd1da-0d86-4625-8ad5-0a6b1abdad35" />
 
 * ☁️ AWS EC2 Running Container
+  <img width="1470" height="956" alt="Screenshot 2026-07-14 at 12 30 12" src="https://github.com/user-attachments/assets/9593fa28-758b-4d6a-9ca2-661e873218d3" />
+
 * 🌐 Live Application
 
 ⸻
